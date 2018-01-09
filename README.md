@@ -7,6 +7,11 @@ https://github.com/tensorflow/models/tree/master/research/im2txt
 の`run_inference.py`と差し替える．
 
 * googleTranseを用いて英->日翻訳
+
+~~~
+% pip install googletrans
+~~~
+
 * opencvのVideoCaptureを用いてwebカメラで取得した画像をiterativeにキャプション生成する
 
 使い方
